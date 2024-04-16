@@ -52,8 +52,9 @@ const Drawer = () => {
                             </label>
                         </div>
                     </div>
-                    <div className=" md:mt-0">
-                        <Outlet></Outlet>
+                    <div className=" bg-red-800  ">
+                        {/* <Outlet></Outlet> */}
+                        {/* <p>jdjfdjkf</p> */}
                     </div>
                 </div>
                 <div className="drawer-side z-[999] scrollable-content">
