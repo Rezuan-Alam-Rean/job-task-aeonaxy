@@ -1,19 +1,19 @@
-
+import { IoNotificationsSharp } from "react-icons/io5";
 const Navbar = () => {
     return (
         <div>
-            <header className="bg-blue-500 w-full px-2 sm:px-6 p-2 md:flex sm:flex  ">
-               
-                <div className="  flex  sm:flex-row items-center gap-2 sm:gap-x-4">
+            <div className="  bg-blue-400 w-full px-2 sm:px-6  p-2 md:flex sm:flex  ">
 
-                    <div className="text-center sm:text-left"> Your Ai StoryBoarding Bundle Discount expires in <span className="text-red-400 px-1 ml-2 bg-white">5:01</span> </div>
-                    
+
+
+                <div className=" justify-center text-center text-white "> Enable browser  Notification to avoid missing out on important activity  </div>
+
+                <div className="flex" >
+
+                <div className="  text-end text-white">Enable Notification</div>
+                <IoNotificationsSharp size={24} />
                 </div>
-                <div className="flex px-2 bg-orange-300 p-1 justify-center items-center md:mr-4 ">
-                    
-                    <p className="px-2 font-bold text-sm text-slate-700">One-Time Offer</p>
-                </div>
-            </header>
+            </div>
         </div>
     );
 };
