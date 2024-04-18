@@ -75,7 +75,7 @@ const Drawer = () => {
                         <div>
                             <IoNotificationsSharp size={24} />
                             <span className="h-2 w-2 bg-red-700 top-5 right-5 absolute rounded-full b border-[1px] border-white"></span>
-                            <span className="h-3 w-3 bg-red-800 top-5 right-5  absolute rounded-full animate-ping"></span>
+                           
 
                         </div>
 
