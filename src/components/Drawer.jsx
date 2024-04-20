@@ -113,17 +113,7 @@ const Drawer = () => {
                                     Transection
                                 </NavLink>
 
-                                <NavLink
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "flex px-4 gap-3 items-center bg-[#38d626] text-white p-2 rounded-xl  pr-4"
-                                            : "flex px-4 p-2 items-center mr-4 gap-3"
-                                    }
-                                    to="/dashboard/statistics"
-                                >
-                                    <IoStatsChartSharp />
-                                    Statistics
-                                </NavLink>
+                              
 
                                 
                                 <NavLink
