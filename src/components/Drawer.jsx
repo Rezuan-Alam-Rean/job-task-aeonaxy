@@ -116,19 +116,6 @@ const Drawer = () => {
                               
 
                                 
-                                <NavLink
-                                    className={({ isActive }) =>
-                                        isActive
-                                            ? "flex  gap-3 items-center bg-[#38d626] text-white p-2 rounded-xl  pr-4"
-                                            : "flex  p-2 items-center mr-4 gap-3"
-                                    }
-                                    to="/dashboard/budget"
-                                >
-                                    <div className="flex gap-2 justify-between">
-                                        {/* <img src={budget} className="w-8" alt="" /> */}
-                                        Budget
-                                    </div>
-                                </NavLink>
 
                                 <NavLink
                                     className={({ isActive }) =>
